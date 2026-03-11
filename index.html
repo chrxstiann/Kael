@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kael's Information</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Stars Container (Dark Mode Only) -->
+    <div class="stars" id="stars"></div>
+
+    <!-- Clouds Container (Light Mode Only) -->
+    <div class="clouds" id="clouds"></div>
+
+    <!-- Floating Background Orbs -->
+    <div class="floating-orb orb-1"></div>
+    <div class="floating-orb orb-2"></div>
+    <div class="floating-orb orb-3"></div>
+
+    <!-- Theme Toggle Button -->
+    <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+        <i data-lucide="moon" class="moon-icon"></i>
+        <i data-lucide="sun" class="sun-icon"></i>
+    </button>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Profile Section -->
+        <div class="profile">
+
+            <img src="https://drive.usercontent.google.com/download?id=1AhaOd5QH6ibAOqyAMpCMRqO-SY8bWCEk&export=view&authuser=0" alt="User" class="profile-picture">
+            
+            <h1>Kael</h1>
+            <p>Computer Engineering Student at Politeknik Negeri Manado</p>
+        </div>
+
+        <!-- Links Section -->
+        <div class="links">
+            <!-- 
+                Supported: Instagram, GitHub, LinkedIn, Twitter/X, Facebook, 
+                YouTube, TikTok, Discord, Telegram, WhatsApp, Email, dan lainnya.
+            -->
+            
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/chrxst______" target="_blank" class="link-button" data-platform="instagram">
+                <i data-lucide="instagram"></i>
+                <span>Instagram</span>
+            </a>
+
+            <!-- GitHub -->
+            <a href="https://github.com/chrxstiann" target="_blank" class="link-button" data-platform="github">
+                <i data-lucide="github"></i>
+                <span>GitHub</span>
+            </a>
+
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/chrxstiann" target="_blank" class="link-button" data-platform="linkedin">
+                <i data-lucide="linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
+
+            <!-- Email Button - Opens email client directly -->
+            <a href="mailto:chrxstiansumarauw@gmail.com" class="link-button" data-platform="email">
+                <i data-lucide="mail"></i>
+                <span>Email</span>
+            </a>
+        </div>
+
+        <!-- Footer Section -->
+        <div class="footer">
+            <p>Follow <a href="https://www.instagram.com/chrxst______" target="_blank">Kael</a> for more information </p>
+            <p>© 2026 All rights reserved</p>
+        </div>
+    </div>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
